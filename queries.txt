@@ -1,0 +1,16 @@
+1) def myfunc(*numbers):
+  for num in numbers:
+    return num**2
+
+print(myfunc(1,2,3,4))
+
+in above example when we use return it give us 1 but when we print it gives the square of number.
+answer- bcz of return as after making square of 1 it come out from the loop.
+
+2) print(map(square,val))--> returns <map object at 0x000001D0EA6F0B70>
+Answer: generator
+
+3) how to get only specific key in dict
+Answer: Can't get only values can recieve
+
+4) in Varscope.py how to reassign the value to global var without using global
