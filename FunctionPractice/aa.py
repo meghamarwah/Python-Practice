@@ -13,7 +13,7 @@ def primenum(num):
     else:                      # this else block indentation is same as for loop instead if block bcz it helps to check all posibilities of prime number 
         return ('prime')
 print(primenum(9))
-
+#-------------------------------------------------------------------
 def prime_upto_num(num):
     n = 2
     count = 0
@@ -31,3 +31,7 @@ def prime_upto_num(num):
     return primenum 
 
 print(prime_upto_num(5))
+#-------------------------------------------------------------------
+a=3
+b='rt'
+print(a+b if (type(a) and type(b))== int else "not valid numbers")
