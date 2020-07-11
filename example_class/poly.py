@@ -24,6 +24,7 @@ pet_voice(bruno)
 pet_voice(kitty)
 
 class A():
+    #a = 10
     def __init__(self,name):
         print('inside A:',name)
 
