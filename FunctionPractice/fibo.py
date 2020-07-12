@@ -1,18 +1,29 @@
-def fibonac(n):
+def fibo_till_n(n):
     res = 0
     a = 0
     b = 1
-    count = 1
-    while count<=n:
+    while res<=n:
         res = a
         a = b
         b = res+a
-        if res < n: # to get upto nth number if want till nth number then remove this if
+        if res <= n: 
             print(res)
         else:
             break
-        count = count+1
 
-fibonac(33)
 
-        
+def fibo_first_n(num):
+    res = count = 0
+    a = 0
+    b = 1
+    while (count<num):
+        res = a
+        a = b
+        b = res + a
+        print(res)
+        count = count + 1
+
+
+if __name__ == '__main__':
+    fibo_till_n(2)
+    fibo_first_n(2)
