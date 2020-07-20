@@ -14,5 +14,3 @@ def testmethod1(megha):
 
 def testmethod2(megha):
     print('this is test method2')
-
-pytest.main('')
