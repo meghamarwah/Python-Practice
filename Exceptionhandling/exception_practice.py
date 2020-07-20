@@ -21,6 +21,7 @@ def div():
     y = 0
     try:
         z = x/y
+        print(z)
     except ZeroDivisionError:
         print("can't divide")
     finally:
@@ -42,4 +43,4 @@ def numsquare():
 
 
 if __name__ == '__main__':
-    numsquare()
+    div()
