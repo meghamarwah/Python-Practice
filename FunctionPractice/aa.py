@@ -35,3 +35,8 @@ print(prime_upto_num(5))
 a=3
 b='rt'
 print(a+b if (type(a) and type(b))== int else "not valid numbers")
+
+def fyn():
+    "this is comment line"
+    print('my name')
+fyn()
