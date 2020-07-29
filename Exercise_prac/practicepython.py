@@ -26,13 +26,20 @@ while (numlist!=[]):
     i = i - len(numlist)
   print(numlist.pop(i))
 
-# Q.4 Write a Python program to find unique triplets whose three elements gives the sum of zero from an array of n integers
+# Q.4 Write a Python program to print a long text, convert the string to a list and print all the words and their frequencies.
 
-arr = [5,2,-1,3,-4,6,1,-3,-2]
-a= [1, -6, 4, 2, -1, 2, 0, -2, 0]
+txt = 'Hi this is megha world, megha is a software test engineer..'
+txt_list = txt.split()
+txt_occurence = dict()
+for word in txt_list:
+  txt_occurence[word] = txt_occurence.get(word,0)+1
+print(txt_occurence.items())
 
-def 
+# Q.5 Write a Python program to count the number of each character of a given text of a text file.
 
-if __name__=='__main__':
-  print(three_sum(arr))
-  print(three_sum(a))
+# with open(r"C:\Users\Megha\Desktop\txtfile.txt") as filedata:
+filedata = open("C:\\Users\\Megha\\Desktop\\txtfile.txt",'w+')
+if filedata.mode == 'w+':
+  filedata.write("hi this is new data.")
+  content = filedata.read()
+  filedata.close()
