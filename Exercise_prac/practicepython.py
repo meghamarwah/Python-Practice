@@ -37,9 +37,10 @@ print(txt_occurence.items())
 
 # Q.5 Write a Python program to count the number of each character of a given text of a text file.
 
-# with open(r"C:\Users\Megha\Desktop\txtfile.txt") as filedata:
-filedata = open("C:\\Users\\Megha\\Desktop\\txtfile.txt",'w+')
-if filedata.mode == 'w+':
-  filedata.write("hi this is new data.")
+with open("C:\\Users\\Megha\\Desktop\\txtfile.txt",'r') as filedata:
+# filedata = open("C:\\Users\\Megha\\Desktop\\txtfile.txt",'w+')
+# if filedata.mode == 'w+':
+  # filedata.write("hi this is new data.")
   content = filedata.read()
+  print(content)
   filedata.close()
